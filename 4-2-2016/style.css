@@ -14,14 +14,14 @@ body {
 }
 
 #wrapper {
-    width: 73%; 
+    width: 80%; 
     margin: 0 auto;
     
 }
 
 #picture {
-    width: 100%;
-    background-color: rgba(0, 0, 0, .2);
+    width: auto;
+    background-color: rgba(0, 0, 0, .3);
     padding: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -40,6 +40,13 @@ header nav ul {
     list-style: none;
     display: table-row;
 }
+
+header nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+		display: block;
+	}
 
 header nav ul li {
     width: 25%;
@@ -82,12 +89,39 @@ h1 {
     text-align: center;
     font-size: 2em;
 }
+
 #feed {
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .3);
     margin: 0 auto;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
     
 }
+#feedbox {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;  
+}
+#feedbox>h1 {
+    font-size: 3em;
+    padding:15px 15px 0px 15px;
+}
+
+section#post {
+    margin: 10px;
+    border-style: groove;
+}
+section#post>p.title {
+    text-align: left;
+}
+section#post p{
+    padding: 10px;
+    text-align: right;
+}
+p.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 
