@@ -14,7 +14,14 @@
                 <ul>
                 <img src="bw_icons2.png" class="logo" alt="Stevens Institute of Technology - The Innovation University">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="post.html">Post Event!</a></li>
+                    <li><a href="post.html">Post Event!</a>
+                        <ul>
+				            <li><a href="postUpper.html">Upper Campus</a></li>
+				            <li><a href="postLower.html">Lower Campus</a></li>
+				            <li><a href="postOff.html">Off Campus</a></li>
+                            <li><a href="postAthletic.html">Athletic Facility</a></li>
+			             </ul>
+                    </li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="help.html">Help</a></li>
                 </ul>
