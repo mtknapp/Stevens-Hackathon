@@ -173,4 +173,9 @@ p.title {
     font-weight: bold;
 }
 
-
+#par {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;  
+    font-size: 1.5em;
+}
