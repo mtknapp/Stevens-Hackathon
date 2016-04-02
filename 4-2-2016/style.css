@@ -38,21 +38,70 @@ header nav {
 
 header nav ul {
     list-style: none;
-    display: table-row;
+    display: inline-table;
 }
 
-header nav ul ul {
+/*Drop down begin*/
+ul li ul {
     display: none;
+    transition: 2s;
 }
-nav ul li:hover > ul {
-		display: block;
-	}
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: 2s;
+}
+ul ul li {
+    float:none;
+    width: 200px;
+    transition: 2s;
+}
+ul ul a {
+    line-height: 120%;
+    padding: 10px;
+    transition: 2s;
+    
+}
+ul li a {
+    text-decoration: none;
+    display: block;
+    transition: 2s;
+}
+ul li a:hover {
+    transition: 2s;
+}
+ul li:hover>ul {
+    display: block;
+    transition: 2s;
+}
+li:hover li {
+    float: none;
+    transition: 2s;
+}
+ul li:hover{
+    transition: 2s;
+    background-color: white;
 
+}
+li:hover li a:hover {
+    transition: 2s
+    
+}
+nav li ul li {
+    transition:2s;
+   
+}
+
+/*Drop down end*/
 header nav ul li {
     width: 25%;
     display: table-cell;
     text-align: center;
     font-size: 1.675em;
+    position: relative;
 }
 
 header nav ul li a{
