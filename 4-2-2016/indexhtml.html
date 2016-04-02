@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="script.js" > </script>
 </head>
@@ -8,14 +10,13 @@
     <header>
         <nav>
             <ul>
-                <li>
                     <img src="bw_icons2.png" class="logo" alt="Stevens Institute of Technology - The Innovation University">
-                </li>
+                
                 <li><a href="index.php">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Help</a></li>
                 <li><a href="">Login/Sign Up</a></li>
-                <li>
+<!--                <li>
                     <div id="search">
                         <form>
                             <input type="text" placeholder="Search..." required>
@@ -23,16 +24,17 @@
                         </form>
                     </div>
                 </li>
+            -->
             </ul>
         </nav>
     </header>
     <div id="wrapper">
       <div id="picture">
-        <img src="Clippy.png" alt="clippy">
+        <img class="map" src="Clippy.png" alt="clippy">
       <div id="feed">
         <section id="reset_submit">
-          <input type="reset" value="Post:" onclick="post()"/>
-          <input type="text" name="myPost" id="myPost" size="64" maxlength="140" placeholder="Enter event" required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Event cannot be blank." /><br/>
+          <input type="text" name="myPost" id="myPost" size="64" maxlength="140" placeholder="Enter event" required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Event cannot be blank." />
+             <input type="reset" value="Post:" onclick="post()"/>
           <textarea name="feed" id="feed" rows="20" cols="73" placeholder="Feed"></textarea><br/>
       </section><br/>
           </div>
