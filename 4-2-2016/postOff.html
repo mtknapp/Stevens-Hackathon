@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <title>DuckLife</title>
+            <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+            <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" type="text/css" href="style.css" />
+            <link rel="stylesheet" type="text/css" href="stylepost.css" />
+            <script type="text/javascript" src="script.js" > </script>
+        </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                <img src="bw_icons2.png" class="logo" alt="Stevens Institute of Technology - The Innovation University">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="post.html">Post Event!</a>
+                        <ul>
+				            <li><a href="postUpper.html">Upper Campus</a></li>
+				            <li><a href="postLower.html">Lower Campus</a></li>
+				            <li><a href="postOff.html">Off Campus</a></li>
+                            <li><a href="postAthletic.html">Athletic Facility</a></li>
+			             </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="help.html">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <br/><br/>
+            <div id="wrapper">
+              <div id="post">
+                <h1>Post Event!</h1>
+                <fieldset>
+                  <legend>Event Info</legend>
+                  <label for="name" class="labelitem">Name:</label>
+                  <input type="text" name="name" id="name" size="24" maxlength="32" placeholder="Enter name." required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Name cannot be blank." /><br/>
+                  <label for="message" class="labelitem">Event Description:</label>
+                  <input type="text" name="message" id="message" size="24" maxlength="32" placeholder="Enter event description." required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Description cannot be blank" /><br/>
+                  <div class="labelitem">Area:</div>
+                  <div class="inputitem">
+                    <input type="radio" name="tag" id="upper" value="upper" />
+                    <label for="upper">Upper Campus</label><br/>
+                    <input type="radio" name="tag" id="lower" value="lower" />
+                    <label for="lower">Lower Campus</label><br/>
+                    <input type="radio" name="tag" id="off" value="off" />
+                    <label for="off">Off Campus</label><br/>
+                    <input type="radio" name="tag" id="athletic" value="athletic" />
+                    <label for="athletic">Athletic</label><br/>
+                  </div><br/>
+                  <div class="labelitem">Tags:</div>
+                  <div class="inputitem">
+                    <input type="checkbox" name="tags[]" id="rec" value="rec" />
+                    <label for="rec">Recreation</label><br/>
+                    <input type="checkbox" name="tags[]" id="edu" value="edu" />
+                    <label for="edu">Education</label><br/>
+                    <input type="checkbox" name="tags[]" id="games" value="games" />
+                    <label for="games">Games</label><br/>
+                    <input type="checkbox" name="tags[]" id="travel" value="travel" />
+                    <label for="travel">Travel</label><br/>
+                    <input type="checkbox" name="tags[]" id="org" value="org" />
+                    <label for="org">Organization</label><br/>
+                  </div><br/>
+                </fieldset>
+                <section id="post">
+                  <input type="submit" value="Post" onclick="createPost()"/>
+                </section><br/>
+              </div>
+            </div>
+          <br/><br/>
+          <div id="feedbox">
+            <h1>Off Campus Feed</h1>
+                        <div id="livefeed">
+                            <section id="post">
+                                <p class="title">Basketball in Schafer at 3:30pm</p>
+                                <p>Whose down for a game of ball right now, feeling like kyrie with my handles lol -David</p>
+                            </section>
+                            <section id="post">
+                                <p class="title">Movie in Bissinger at 5:00pm</p>
+                                <p>I just a copy of the new Deadpool movie! Gonna watch in Bissinger. Feel free to join! -Samantha</p>
+                            </section>
+                        </div>
+          </div>
+        </main>
+    </body>
+</html>
