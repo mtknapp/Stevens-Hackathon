@@ -6,6 +6,6 @@
 
 </head>
 <body>
-	
+	<img src="bw_logo.png" alt="Stevens Institute of Technology - The Innovation University">
 </body>
 </html>
