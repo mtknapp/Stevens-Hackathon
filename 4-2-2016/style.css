@@ -12,27 +12,22 @@ body {
   max-width: 100%;
     background-color: darkred;
 }
-#wrapper, #picture, #feed {
+#wrapper {
     width: 1400px;
     margin: 0 auto;
     background-color: white;
-    
-}
-
-#wrapper {
     margin-top: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #picture {
-    padding-top:  100px;
-    padding-bottom: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#feed {
-    padding-top:  50px;
-    padding-bottom: 50px;
+#feeder {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 header nav {
     margin: 0 auto;
@@ -64,15 +59,6 @@ img.logo {
 img.map {
     display: block;
     margin: auto;
-}
-section#reset_submit {
-    width: 100%;
-}
-input {
-    width:100%;   
-}
-textarea {
-    width: 100%;
 }
 
 
