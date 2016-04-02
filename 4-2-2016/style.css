@@ -4,14 +4,21 @@
 }
 
 body {
-    background: no-repeat fixed;
-    background-size: cover;
-    max-width: 100%;
+  background: no-repeat fixed;
+  background-size: cover;
+  max-width: 100%;
 }
-
+#wrapper, #picture, #feed {
+    width: 1080px;
+    margin: 0 auto;
+    
+}
 header nav {
+    position: relative;
+    z-index: 30;
+    margin: 0 auto;
     width: 100%;
-    padding: 0px 20px 0px 20px;
+    padding: 20px 0px 20px 0px;
     display: table;
 }
 
@@ -22,8 +29,13 @@ header nav ul {
 
 header nav ul li {
     display: table-cell;
-    margin:  0px 30px;
+    margin:  0px;
 }
-
+img.logo {
+    display: block;
+    width: 250px;
+    margin:0px auto;
+    
+}
 
 
