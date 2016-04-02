@@ -6,11 +6,13 @@
 </head>
 <body>
     <header>
+        <img src="bw_logo.png" alt="Stevens Institute of Technology - The Innovation University">
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Help</a></li>
+                <li><a href="">Login/Sign Up</a></li>
             </ul>
         </nav>
         <div id="search">
@@ -21,7 +23,15 @@
         </div>
     </header>
     <div id="wrapper">
-	   <img src="bw_logo.png" alt="Stevens Institute of Technology - The Innovation University">
+      <div id="picture">
+        <img src="Clippy.png" alt="clippy">
+      <div id="feed">
+        <section id="reset_submit">
+          <input type="reset" value="Post:" onclick="post()"/>
+          <input type="text" name="myPost" id="myPost" size="64" maxlength="140" placeholder="Enter event" required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Event cannot be blank." /><br/>
+          
+      </section><br/>
+      </div>
     </div>
 </body>
 </html>
