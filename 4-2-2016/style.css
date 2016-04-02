@@ -20,7 +20,7 @@ header nav ul {
     display: table-row;
 }
 
-header bav ul li {
+header nav ul li {
     display: table-cell;
     margin:  0px 30px;
 }
