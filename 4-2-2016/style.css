@@ -14,7 +14,7 @@ body {
 }
 
 #wrapper {
-    width: 
+    width: 75%; 
     margin: 0 auto;
 }
 
@@ -67,6 +67,10 @@ img.map {
     display: block;
     margin: auto;
 }
-
+#title {
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+}
 
 
