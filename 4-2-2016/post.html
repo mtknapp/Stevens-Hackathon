@@ -5,6 +5,7 @@
             <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
             <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" type="text/css" href="style.css" />
+            <link rel="stylesheet" type="text/css" href="stylepost.css" />
             <script type="text/javascript" src="script.js" > </script>
         </head>
     <body>
@@ -20,6 +21,7 @@
             </nav>
         </header>
         <main>
+            <br/><br/>
             <div id="wrapper">
               <div id="post">
                 <h1>Post Event!</h1>
@@ -29,7 +31,7 @@
                   <input type="text" name="name" id="name" size="24" maxlength="32" placeholder="Enter name." required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Name cannot be blank." /><br/>
                   <label for="message" class="labelitem">Event Description:</label>
                   <input type="text" name="message" id="messsage" size="24" maxlength="32" placeholder="Enter event description." required pattern="^[a-zA-Z][a-zA-Z'\ ]*$" title="Description cannot be blank" /><br/>
-                  <div class="labelitem">Tags:</div>
+                  <div class="labelitem">Area:</div>
                   <div class="inputitem">
                     <input type="radio" name="tag" id="upper" value="upper" />
                     <label for="upper">Upper Campus</label><br/>
@@ -39,6 +41,9 @@
                     <label for="off">Off Campus</label><br/>
                     <input type="radio" name="tag" id="athletic" value="athletic" />
                     <label for="athletic">Athletic</label><br/>
+                  </div><br/>
+                  <div class="labelitem">Tags:</div>
+                  <div class="inputitem">
                     <input type="checkbox" name="tags[]" id="rec" value="rec" />
                     <label for="rec">Recreation</label><br/>
                     <input type="checkbox" name="tags[]" id="edu" value="edu" />
