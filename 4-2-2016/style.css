@@ -14,14 +14,17 @@ body {
 }
 
 #wrapper {
-    width: 75%; 
+    width: 73%; 
     margin: 0 auto;
+    
 }
 
 #picture {
-    background-color: rgba(0, 0, 0, .2);
     width: 100%;
-    margin: 15px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 header nav {
@@ -68,9 +71,23 @@ img.map {
     margin: auto;
 }
 #title {
-    margin: 0 auto;
-    width: 100%;
     background-color: white;
+    width: 25%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+#feed {
+    background-color: rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
 
