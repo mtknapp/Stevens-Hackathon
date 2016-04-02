@@ -3,3 +3,4 @@ Group members include:
   Mark Knapp
   Zachary Hackett
   Jack Kraszewski
+  Bryan Valarezo
